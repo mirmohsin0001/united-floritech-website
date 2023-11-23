@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    color: azure;
+    background-color: #074f57;
+}
+
+header{
+    /* background-image: url(assets/cropped.jpg); */
+    background-color: #063f45;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 5%;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1{
+    padding-top: 100px;
+    font-size: 100px;
+}
+
+.hero h2{
+    font-weight: 100;
+}
+
+.hero span{
+    margin-top: 100px;
+    background-color:#113f43;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 900px;
+    font-size:x-large;
+}
+
+.catagories{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 5%;
+    background-color: #fafafa;
+
+}
+
+.card{
+    width: 300px;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0 ;
+
+}
+
+.description{
+    padding: 10px;
+    color: #141514;
+}
